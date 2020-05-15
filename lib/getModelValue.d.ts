@@ -1,1 +1,3 @@
-export declare function getModelValue(model: any, property: string): any;
+export declare class ModelValue {
+    static get(model: any, property: string): any;
+}
